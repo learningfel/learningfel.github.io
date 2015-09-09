@@ -1,0 +1,74 @@
+/* homepage.css */
+
+/* style sheet for Charles Plager's log page */
+
+body {
+	/*background-image: url(marb18a.jpg);*/
+	background-image: url(rough-grey.jpg);
+    /*font-family : "Times New Roman", Times, serif;*/
+    /* font-family: Palantino Linotype , serif;*/
+	font-family: Trebuchet MS, sans-serif;
+}
+
+pre {
+	border: 1pt solid #8B4513;
+	background-color: #F3F5F7;
+	padding: 5pt;
+	color: #8B4513;
+	overflow:auto;
+}
+
+tt {
+	color: #8B4513;
+}
+
+h1 {
+	text-align: center;
+	font-variant: small-caps;
+}
+
+h2 {
+	text-align: center;
+	background-color: #666666;
+	color: white;
+}
+
+div.white {
+	background-color: white;
+	color: black;
+}
+
+.white {
+	background-color: white;
+	color: black;
+}
+
+h2.regular {
+	/*background-image: url(marb18a.jpg);*/
+	background-color: transparent;
+	text-align: left;
+	color: black;
+}
+
+h3 {
+	/*font-variant: small-caps;*/
+}
+
+
+table { 
+	text-align: center;
+}
+
+a:link { 
+}
+
+a:visited { 
+}
+  
+a:hover { 
+	text-decoration: underline overline;
+	color: red;
+}
+
+a:active { 
+}
