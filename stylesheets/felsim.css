@@ -16,6 +16,11 @@ pre {
 	overflow:auto;
 }
 
+code {
+    background-color: #F0F9F9;
+    color: #F20FCC;
+}
+
 tt {
     color: #EE0066;
 }

@@ -59,57 +59,57 @@
         <p>
         <ul>
             <li><em>Linux operation basis</em>, try to work in the command line interface (CLI), not graphical user interface (GUI).</li>
-            <li><em>Shell scripting</em>, try to master linux CLI commands/tools as many as possible, e.g. <tt>bash, awk, sed, grep, find</tt>, etc.</li>
-            <li><em>Pick up another programming language</em>, to do data processing, e.g. <tt>Python, Octave</tt> etc. <tt>Octave</tt> is an open source option for <tt>MATLAB</tt> if you're used to the syntax of <tt>MATLAB</tt>.</li>
-            <li><em>Run code</em>, use <tt>Genesis 1.3</tt> to solve FEL equations, <tt>Elegant</tt> to do beam tracking, etc.</li>
+            <li><em>Shell scripting</em>, try to master linux CLI commands/tools as many as possible, e.g. <code>bash</code>, <code>awk</code>, <code>sed</code>, <code>grep</code>, <code>find</code>, etc.</li>
+            <li><em>Pick up another programming language</em>, to do data processing, e.g. <code>Python</code>, <code>Octave</code> etc. <code>Octave</code> is an open source option for <code>MATLAB</code> if you're used to the syntax of <code>MATLAB</code>.</li>
+            <li><em>Run code</em>, use <code>Genesis 1.3</code> to solve FEL equations, <code>Elegant</code> to do beam tracking, etc.</li>
             <li><em>Think WHYs and HOWs.</em></li>
         </ul>
         </p>
 
-        <h3>FEL high-level software application suite: <tt>felapps</tt></h3>
+        <h3>FEL high-level software application suite: <code>felapps</code></h3>
 
         <h4>Overview</h4>
 
-        <p><tt>felapps</tt> is the name of the currently developing high-level application suite for FEL facility, it is developed by <tt>Python</tt> programming language. 
-        <tt>felapps</tt> is a collection of many small apps, among which there is one app named <tt>felformula</tt>, 
+        <p><code>felapps</code> is the name of the currently developing high-level application suite for FEL facility, it is developed by <code>Python</code> programming language. 
+        <code>felapps</code> is a collection of many small apps, among which there is one app named <code>felformula</code>, 
         which is created for the goal of providing analytical FEL calculations with simple input parameters in a somewhat quick and dirty way.</p>
         
-        <h4>Install <tt>felapps</tt></h4>
+        <h4>Install <code>felapps</code></h4>
 
-        <p>However, I think <tt>felformula</tt> would be useful especially for whom are learning FEL physics or FEL numerical simulation, here is the installation guide:
+        <p>However, I think <code>felformula</code> would be useful especially for whom are learning FEL physics or FEL numerical simulation, here is the installation guide:
         <ol>
-            <li>Install <tt>Python</tt> and required packages.
+            <li>Install <code>Python</code> and required packages.
                 <ul>
-                    <li>Simple solution: install <tt>Python(x,y)</tt> if you're using Windows OS, download address: <a href="http://ftp.ntua.gr/pub/devel/pythonxy/Python(x,y)-2.7.10.0.exe">click here</a>.</li>
-                    <li>Linux OS is a little bit complicated: use <tt>pip</tt> these packages:
+                    <li>Simple solution: install <code>Python(x,y)</code> if you're using Windows OS, download address: <a href="http://ftp.ntua.gr/pub/devel/pythonxy/Python(x,y)-2.7.10.0.exe">click here</a>.</li>
+                    <li>Linux OS is a little bit complicated: use <code>pip</code> these packages:
                         <ul>
-                            <li><tt>pyepics</tt>: 3.2.4 or later</li>
-                            <li><tt>matplotlib</tt>: 1.3.1 or later</li>
-                            <li><tt>numpy</tt>: 1.8.2.or later</li>
-                            <li><tt>scipy</tt>: 0.13.3 or later</li>
-                            <li><tt>h5py</tt>: 2.5.0 or later</li>
-                            <li><tt>wxpython</tt>: 3.0.2.0 or later</li>
+                            <li><code>pyepics</code>: 3.2.4 or later</li>
+                            <li><code>matplotlib</code>: 1.3.1 or later</li>
+                            <li><code>numpy</code>: 1.8.2.or later</li>
+                            <li><code>scipy</code>: 0.13.3 or later</li>
+                            <li><code>h5py</code>: 2.5.0 or later</li>
+                            <li><code>wxpython</code>: 3.0.2.0 or later</li>
                         </ul>
                     </li>
-                    <li>Install <tt>felapps</tt> package:
+                    <li>Install <code>felapps</code> package:
                         <ul>
                             <li>Windows OS users: download <a href="/resources/install_felapps.bat?raw=true">install_felapps.bat</a> and run (double click), and update by <a href="/resources/update_felapps.bat?raw=true">update_felapps.bat</a>.</li>
-                            <li>Linux OS users: download <a href="/resources/install_felapps.sh?raw=true">install_felapps.sh</a> to install and <a href="/resources/update_felapps.sh?raw=true">update_felapps.sh</a> to update by issuing <tt>bash script_name</tt> in terminal.</li>
+                            <li>Linux OS users: download <a href="/resources/install_felapps.sh?raw=true">install_felapps.sh</a> to install and <a href="/resources/update_felapps.sh?raw=true">update_felapps.sh</a> to update by issuing <code>bash script_name</code> in terminal.</li>
                         </ul>
                     </li>
                 </ul>
             </li>
-            <li>Run apps from <tt>felapps</tt>.
+            <li>Run apps from <code>felapps</code>.
                 <ul>
-                    <li><tt>felformula</tt>: download <a href="/resources/felformula.py?raw=true">felformula.py</a> and execute (double-click in Windows, type <tt>felformula</tt> in terminal for Linux)</li>
+                    <li><code>felformula</code>: download <a href="/resources/felformula.py?raw=true">felformula.py</a> and execute (double-click in Windows, type <code>felformula</code> in terminal for Linux)</li>
                 </ul>
             </li>
         </ol>
         </p>
 
-        <h4>Use <tt>felformula</tt></h4>
+        <h4>Use <code>felformula</code></h4>
 
-        <p>Screenshots show what can <tt>felformula</tt> do.</p>
+        <p>Screenshots show what can <code>felformula</code> do.</p>
         
         <div class="img">
             <a target="_blank" href="felformula_01.html">
