@@ -19,7 +19,7 @@ pre {
 }
 
 tt {
-	color: #8B4513;
+    color: #F66C33;
 }
 
 h1 {
@@ -53,7 +53,6 @@ h2.regular {
 h3 {
 	/*font-variant: small-caps;*/
 }
-
 
 table { 
 	text-align: center;
